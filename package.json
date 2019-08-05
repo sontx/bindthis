@@ -1,11 +1,14 @@
 {
-  "name": "bindthis",
+  "name": "@sontx/bindthis",
   "version": "1.0.0",
   "description": "Binds \"this\" to all methods of your class",
+  "private": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "prepublish": "npm run compile",
+    "publish-npm": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
