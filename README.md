@@ -1,5 +1,7 @@
 # bindthis
 
+![npm](https://img.shields.io/npm/v/@sontx/bindthis) ![npm](https://img.shields.io/npm/dw/@sontx/bindthis) ![Travis (.org)](https://img.shields.io/travis/sontx/bindthis) 
+
 Binds `this` to all methods of your class
 
 Your mess stuff:
