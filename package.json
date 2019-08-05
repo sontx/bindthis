@@ -1,0 +1,29 @@
+{
+  "name": "bindthis",
+  "version": "1.0.0",
+  "description": "Binds \"this\" to all methods of your class",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sontx/bindthis.git"
+  },
+  "author": "sontx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sontx/bindthis/issues"
+  },
+  "homepage": "https://github.com/sontx/bindthis#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "tsconfig.json"
+  ]
+}
