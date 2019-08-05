@@ -1,6 +1,6 @@
 # bindthis
 
-Binds "this" to all methods of your class
+Binds `this` to all methods of your class
 
 Your mess stuff:
 ```js
@@ -14,11 +14,40 @@ constructor() {
 }
 ```
 
-Now, only one line to clear your mess stuff.
+Now, only one line to clear your mess.
 ```js
 constructor() {
   // .......
   bindMethods(this);
   // .......
+}
+```
+
+# Usage
+
+Install
+```bash
+npm i @sontx/bindthis
+```
+
+or 
+
+```bash
+yarn add @sontx/bindthis
+```
+
+In your code
+```js
+import bindMethods from "bindthis";
+
+class MyClass {
+  constructor() {
+    // ..............
+    bindMethods(this);
+    // ..............
+  }
+  // ..............
+  method1() {}
+  method2() {}
 }
 ```
